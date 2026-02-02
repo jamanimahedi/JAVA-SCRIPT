@@ -126,8 +126,8 @@ console.log(" ") //for space
 console.log("Type Operator")
 
 let num=123
-let str="dharmik"
-let object={NAME:"Dharmik",Age:"18"}
+let str="MahediRaza"
+let object={NAME:"MahediRaza",Age:"21"}
 
 console.log(typeof num)
 console.log(typeof str)
