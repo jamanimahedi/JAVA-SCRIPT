@@ -1,0 +1,13 @@
+body{
+  background:#121212;
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+form{
+  border:3px solid #38bdf8;
+  padding:20px;
+}
