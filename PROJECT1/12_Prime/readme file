@@ -1,0 +1,92 @@
+# Prime Number Checker 🔢✔️
+
+A JavaScript project that checks whether a given number is **Prime** or **Not Prime**.  
+This project uses efficient logic and a **modern UI**, making it perfect for beginners, interviews, and portfolio use.
+
+
+https://prime-number-checker-js-program.netlify.app/
+
+
+---
+
+## 🚀 Features
+
+- ✅ Checks prime numbers accurately
+- 🎨 Modern card-based UI with gradient background
+- 📱 Fully responsive design
+- ⚡ Instant result display
+- 🧠 Simple and optimized JavaScript logic
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Page structure  
+- **CSS3** – Styling and modern UI  
+- **JavaScript (ES6)** – Prime checking logic  
+
+---
+
+## 📂 Project Structure
+
+Prime-Number-Checker/
+│
+├── index.html # HTML structure
+├── style.css # CSS styling
+├── script.js # JavaScript logic
+└── README.md # Project documentation
+
+
+---
+
+## 🧩 How It Works
+
+1. User enters a number.
+2. Clicks on the **Check Prime** button.
+3. JavaScript:
+   - Checks divisibility from 2 to √n
+   - If divisible → Not Prime
+   - Else → Prime
+4. Displays result instantly.
+
+**Example:**  
+Input: `7` → Output: `Prime Number`  
+Input: `10` → Output: `Not Prime`
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone or download the repository  
+2. Open it in **VS Code**  
+3. Open `index.html` in a browser  
+4. Enter a number and check result 🔍
+
+---
+
+## 📸 Output Preview
+
+- Centered card layout
+- Gradient background
+- Green for Prime
+- Red for Not Prime
+
+---
+
+## 🎯 Learning Outcome
+
+- Optimized loop usage
+- Mathematical logic implementation
+- DOM manipulation
+- Writing efficient JavaScript code
+
+---
+
+## 📌 Best For
+
+- JavaScript beginners
+- College assignments
+- Interview logic rounds
+- Portfolio projects
+
+---
