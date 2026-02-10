@@ -1,0 +1,87 @@
+# Vowel or Consonant Checker 🔤
+
+A simple JavaScript project that checks whether an entered alphabet is a **Vowel** or a **Consonant**.  
+This project is built with a **modern UI** and clean logic, making it perfect for beginners and portfolio display.
+
+https://vowel-consonant-checker-js-program.netlify.app/
+
+---
+
+## 🚀 Features
+
+- ✅ Checks vowel or consonant instantly
+- 🎨 Modern card-based UI with gradient background
+- 📱 Fully responsive design
+- ⚡ Real-time output display
+- 🧠 Beginner-friendly JavaScript logic
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Page structure  
+- **CSS3** – Styling and modern UI  
+- **JavaScript (ES6)** – Core logic  
+
+---
+
+## 📂 Project Structure
+
+Vowel-Consonant-Checker/
+│
+├── index.html # HTML file
+├── style.css # CSS for styling
+├── script.js # JavaScript logic
+└── README.md # Documentation
+
+
+---
+
+## 🧩 How It Works
+
+1. User enters a single alphabet.
+2. Clicks on the **Check** button.
+3. JavaScript:
+   - Checks if input is a vowel (a, e, i, o, u)
+   - Otherwise, displays consonant
+4. Output is shown instantly with color feedback.
+
+---
+
+## ▶️ How to Run the Project
+
+1. Download or clone the repository  
+2. Open in **VS Code**  
+3. Open `index.html` in a browser  
+4. Enter an alphabet and see the result 🎯
+
+---
+
+## 📸 Output Preview
+
+- Centered card layout
+- Gradient background
+- Green for Vowel
+- Blue for Consonant
+- Clean & readable UI
+
+---
+
+## 🎯 Learning Outcome
+
+- Using conditional statements
+- String handling in JavaScript
+- DOM manipulation
+- Input validation basics
+
+---
+
+## 📌 Ideal For
+
+- JavaScript beginners
+- College assignments
+- Interview practice
+- Portfolio projects
+
+---
+
