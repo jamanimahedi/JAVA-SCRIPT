@@ -1,0 +1,87 @@
+# Age Eligibility Checker 👶➡️🧑➡️👴
+
+A JavaScript-based project that determines a person’s **eligibility for voting, driving, or senior citizen status** based on age.  
+Designed with a **modern UI** and clean logic, ideal for beginners and portfolio showcase.
+
+https://age-eligibility-checker-js-program.netlify.app/
+
+---
+
+## 🚀 Features
+
+- ✅ Checks age-based eligibility instantly
+- 🎨 Modern card layout with gradient background
+- 📱 Fully responsive design
+- ⚡ Instant result with clear messages
+- 🧠 Beginner-friendly JavaScript logic
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Structure of the page  
+- **CSS3** – Styling and layout  
+- **JavaScript (ES6)** – Age condition logic  
+
+---
+
+## 📂 Project Structure
+
+Age-Eligibility-Checker/
+│
+├── index.html # HTML structure
+├── style.css # CSS styling
+├── script.js # JavaScript logic
+└── README.md # Project documentation
+
+
+---
+
+## 🧩 How It Works
+
+1. User enters age.
+2. Clicks on the **Check Eligibility** button.
+3. JavaScript logic:
+   - Age < 18 → Not eligible to vote
+   - Age ≥ 18 → Eligible to vote
+   - Age ≥ 16 → Eligible to drive
+   - Age ≥ 60 → Senior citizen
+4. Result is displayed clearly on the screen.
+
+---
+
+## ▶️ How to Run the Project
+
+1. Download or clone the repository  
+2. Open the folder in **VS Code**  
+3. Open `index.html` in your browser  
+4. Enter age and view eligibility 🎯
+
+---
+
+## 📸 Output Preview
+
+- Centered card-based UI
+- Gradient background
+- Clear eligibility messages
+- Color-based result feedback
+
+---
+
+## 🎯 Learning Outcome
+
+- Working with multiple conditions
+- JavaScript if-else logic
+- DOM manipulation
+- Creating real-world logic using JS
+
+---
+
+## 📌 Best For
+
+- JavaScript practice
+- College mini projects
+- Interview logic questions
+- Portfolio showcase
+
+---
