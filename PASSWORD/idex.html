@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password</title>
+    <link rel="stylesheet" href="pass.css">
+</head>
+<body>
+    <div class="container">
+    <form id="form">
+        <input type="text"
+        id="oldpassword"
+        minlength="6"
+        placeholder="enter old password"
+        required/>
+
+        <input type="text"
+        id="newpassword"
+        minlength="6"
+        placeholder="enter new password"
+        required />
+        <button type="submit">change</button>
+    </form>
+</div>
+<div id="status"></div>
+<script src="./pass.js"></script>
+</body>
+</html>
