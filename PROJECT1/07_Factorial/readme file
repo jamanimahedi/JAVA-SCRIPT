@@ -1,0 +1,85 @@
+# Factorial of a Number ✖️🔢
+
+A simple JavaScript project that calculates the **factorial of a given number**.  
+This project uses clean logic and a **modern UI**, making it perfect for beginners, interviews, and portfolio use.
+
+https://factorial-calculator-js-program.netlify.app/
+
+---
+
+## 🚀 Features
+
+- ✅ Calculates factorial instantly
+- 🎨 Modern card-based UI with gradient background
+- 📱 Fully responsive design
+- ⚡ Real-time result display
+- 🧠 Beginner-friendly JavaScript logic
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Page structure  
+- **CSS3** – Styling and modern UI  
+- **JavaScript (ES6)** – Factorial calculation logic  
+
+---
+
+## 📂 Project Structure
+
+Factorial-Calculator/
+│
+├── index.html # HTML structure
+├── style.css # CSS styling
+├── script.js # JavaScript logic
+└── README.md # Documentation
+
+
+---
+
+## 🧩 How It Works
+
+1. User enters a non-negative number.
+2. Clicks on the **Calculate** button.
+3. JavaScript:
+   - Uses loop logic to calculate factorial
+   - Example: 5! = 5 × 4 × 3 × 2 × 1
+4. Displays the result instantly.
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone or download the repository  
+2. Open in **VS Code**  
+3. Open `index.html` in a browser  
+4. Enter a number and calculate factorial 🎉
+
+---
+
+## 📸 Output Preview
+
+- Centered card layout
+- Gradient background
+- Clean and readable output
+- Highlighted factorial result
+
+---
+
+## 🎯 Learning Outcome
+
+- Loop concepts in JavaScript
+- Mathematical logic implementation
+- DOM manipulation
+- Writing efficient JavaScript code
+
+---
+
+## 📌 Ideal For
+
+- JavaScript beginners
+- College practicals
+- Interview preparation
+- Portfolio projects
+
+---
