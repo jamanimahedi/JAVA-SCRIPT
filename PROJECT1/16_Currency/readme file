@@ -1,0 +1,88 @@
+# Currency Converter 💱
+
+A JavaScript project that converts an amount from one currency to another using predefined exchange rates.  
+Designed with a **modern UI** and simple logic, this project is perfect for beginners and portfolio showcase.
+
+
+https://currency-converter-js-program.netlify.app/
+
+
+---
+
+## 🚀 Features
+
+- ✅ Converts currency instantly
+- 💰 Supports multiple currencies
+- 🎨 Modern card-based UI with gradient background
+- 📱 Fully responsive design
+- ⚡ Real-time conversion result
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Webpage structure  
+- **CSS3** – Styling and modern UI  
+- **JavaScript (ES6)** – Currency conversion logic  
+
+---
+
+## 📂 Project Structure
+
+Currency-Converter/
+│
+├── index.html # HTML structure
+├── style.css # CSS styling
+├── script.js # JavaScript logic
+└── README.md # Project documentation
+
+
+---
+
+## 🧩 How It Works
+
+1. User enters the amount.
+2. Selects **From Currency** and **To Currency**.
+3. Clicks on the **Convert** button.
+4. JavaScript:
+   - Applies predefined exchange rate
+   - Calculates converted amount
+5. Displays the result instantly.
+
+---
+
+## ▶️ How to Run the Project
+
+1. Download or clone the repository  
+2. Open the folder in **VS Code**  
+3. Open `index.html` in a browser  
+4. Enter amount and convert currency 💱
+
+---
+
+## 📸 Output Preview
+
+- Centered card layout
+- Gradient background
+- Clear conversion result
+- Professional and clean UI
+
+---
+
+## 🎯 Learning Outcome
+
+- Working with numbers & calculations
+- Handling dropdown selections
+- DOM manipulation
+- Building practical utility applications
+
+---
+
+## 📌 Best For
+
+- JavaScript beginners
+- College mini projects
+- Interview preparation
+- Portfolio showcase
+
+---
