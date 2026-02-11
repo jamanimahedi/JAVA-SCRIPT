@@ -1,0 +1,93 @@
+# Shopping Discount Calculator 🛒💸
+
+A JavaScript project that calculates the **final payable amount after applying a discount** on a shopping bill.  
+Built with a **modern UI** and simple logic, this project is ideal for beginners, practice, and portfolio showcase.
+
+
+https://shopping-discount-calculator-js.netlify.app/
+
+
+---
+
+## 🚀 Features
+
+- ✅ Calculates discount instantly
+- 🧾 Shows original price, discount, and final amount
+- 🎨 Modern card-based UI with gradient background
+- 📱 Fully responsive layout
+- ⚡ Real-time calculation without page reload
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Structure of the webpage  
+- **CSS3** – Styling and modern UI  
+- **JavaScript (ES6)** – Discount calculation logic  
+
+---
+
+## 📂 Project Structure
+
+Shopping-Discount-Calculator/
+│
+├── index.html # HTML structure
+├── style.css # CSS styling
+├── script.js # JavaScript logic
+└── README.md # Project documentation
+
+
+---
+
+## 🧩 How It Works
+
+1. User enters the **total bill amount**.
+2. User enters the **discount percentage**.
+3. Clicks on the **Calculate Discount** button.
+4. JavaScript:
+   - Calculates discount amount
+   - Calculates final payable amount
+5. Displays results clearly on the screen.
+
+**Example:**  
+Bill Amount: ₹1000  
+Discount: 10%  
+Final Amount: ₹900
+
+---
+
+## ▶️ How to Run the Project
+
+1. Download or clone the repository  
+2. Open it in **VS Code**  
+3. Open `index.html` in any browser  
+4. Enter bill details and calculate discount 🧮
+
+---
+
+## 📸 Output Preview
+
+- Centered card layout
+- Gradient background
+- Clear price & discount breakdown
+- Professional and clean UI
+
+---
+
+## 🎯 Learning Outcome
+
+- Percentage calculation logic
+- Handling multiple inputs
+- DOM manipulation
+- Creating real-world utility projects
+
+---
+
+## 📌 Best For
+
+- JavaScript beginners
+- College mini projects
+- Interview preparation
+- Portfolio showcase
+
+---

@@ -1,0 +1,88 @@
+# Reverse a Number 🔄🔢
+
+A JavaScript project that reverses a given number and displays the result instantly.  
+Designed with a **modern UI** and simple logic, this project is perfect for beginners and interview practice.
+
+https://reverse-number-js-program.netlify.app/
+
+---
+
+## 🚀 Features
+
+- ✅ Reverses any valid number
+- 🎨 Modern card-based UI with gradient background
+- 📱 Fully responsive design
+- ⚡ Instant result display
+- 🧠 Beginner-friendly JavaScript logic
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Structure of the webpage  
+- **CSS3** – Styling and layout  
+- **JavaScript (ES6)** – Number reverse logic  
+
+---
+
+## 📂 Project Structure
+
+Reverse-Number/
+│
+├── index.html # HTML structure
+├── style.css # CSS styling
+├── script.js # JavaScript logic
+└── README.md # Project documentation
+
+
+---
+
+## 🧩 How It Works
+
+1. User enters a number.
+2. Clicks on the **Reverse** button.
+3. JavaScript:
+   - Extracts digits one by one
+   - Reverses the order of digits
+4. Displays the reversed number.
+
+**Example:**  
+Input: `1234` → Output: `4321`
+
+---
+
+## ▶️ How to Run the Project
+
+1. Download or clone the repository  
+2. Open in **VS Code**  
+3. Open `index.html` in a browser  
+4. Enter a number and reverse it 🔄
+
+---
+
+## 📸 Output Preview
+
+- Centered card layout
+- Gradient background
+- Clean output display
+- Highlighted reversed number
+
+---
+
+## 🎯 Learning Outcome
+
+- Loop and arithmetic operations
+- Working with numbers
+- DOM manipulation
+- Writing clean JavaScript logic
+
+---
+
+## 📌 Best For
+
+- JavaScript beginners
+- College assignments
+- Interview preparation
+- Portfolio projects
+
+---

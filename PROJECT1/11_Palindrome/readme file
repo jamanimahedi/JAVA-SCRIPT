@@ -1,0 +1,92 @@
+# Palindrome Number Checker 🔁🔢
+
+A JavaScript project that checks whether a given number is a **Palindrome** or not.  
+A number is called a palindrome if it reads the same **forward and backward**.  
+This project is built with a **modern UI** and clean logic, ideal for beginners and interviews.
+
+
+https://palindrome-number-checker-js-program.netlify.app/
+
+
+---
+
+## 🚀 Features
+
+- ✅ Checks palindrome number instantly
+- 🎨 Modern card-based UI with gradient background
+- 📱 Fully responsive layout
+- ⚡ Instant result without page reload
+- 🧠 Simple & beginner-friendly JavaScript logic
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Webpage structure  
+- **CSS3** – Styling and UI design  
+- **JavaScript (ES6)** – Palindrome checking logic  
+
+---
+
+## 📂 Project Structure
+
+Palindrome-Number-Checker/
+│
+├── index.html # HTML structure
+├── style.css # CSS styling
+├── script.js # JavaScript logic
+└── README.md # Project documentation
+
+
+---
+
+## 🧩 How It Works
+
+1. User enters a number.
+2. Clicks on the **Check Palindrome** button.
+3. JavaScript:
+   - Reverses the number
+   - Compares original number with reversed number
+4. Displays whether the number is **Palindrome** or **Not Palindrome**.
+
+**Example:**  
+Input: `121` → Output: `Palindrome`  
+Input: `123` → Output: `Not Palindrome`
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone or download the repository  
+2. Open the folder in **VS Code**  
+3. Open `index.html` in any browser  
+4. Enter a number and check the result 🔍
+
+---
+
+## 📸 Output Preview
+
+- Centered card layout
+- Gradient background
+- Green message for Palindrome
+- Red message for Not Palindrome
+
+---
+
+## 🎯 Learning Outcome
+
+- Understanding number reversal
+- Conditional logic in JavaScript
+- DOM manipulation
+- Writing clean & reusable code
+
+---
+
+## 📌 Ideal For
+
+- JavaScript beginners
+- College practicals
+- Interview logic questions
+- Portfolio projects
+
+---

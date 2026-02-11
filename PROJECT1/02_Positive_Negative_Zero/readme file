@@ -1,0 +1,89 @@
+# Positive / Negative / Zero Checker ➕➖0
+
+A simple yet powerful JavaScript project that checks whether a given number is **Positive**, **Negative**, or **Zero**.  
+This project is designed with a **modern UI** and clear logic, perfect for beginners and portfolio showcase.
+
+https://positive-negative-zero-checker-js.netlify.app/
+
+
+
+---
+
+## 🚀 Features
+
+- ✅ Checks Positive, Negative, or Zero number
+- 🎨 Modern & colorful card-based UI
+- 📱 Fully responsive design
+- ⚡ Instant output without page reload
+- 🧠 Easy-to-understand JavaScript logic
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Page structure  
+- **CSS3** – Styling and layout  
+- **JavaScript (ES6)** – Core logic  
+
+---
+
+## 📂 Project Structure
+
+Positive-Negative-Zero-Checker/
+│
+├── index.html # HTML structure
+├── style.css # CSS styling
+├── script.js # JavaScript functionality
+└── README.md # Documentation
+
+
+---
+
+## 🧩 How It Works
+
+1. User enters any number.
+2. Clicks on the **Check** button.
+3. JavaScript logic:
+   - Number > 0 → **Positive**
+   - Number < 0 → **Negative**
+   - Number === 0 → **Zero**
+4. Result is displayed with color-based feedback.
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone or download the repository  
+2. Open the folder in **VS Code**  
+3. Open `index.html` in a browser  
+4. Enter a number and see the result 🎯
+
+---
+
+## 📸 Output Preview
+
+- Centered card layout
+- Gradient background
+- Green for Positive
+- Red for Negative
+- Blue for Zero
+
+---
+
+## 🎯 Learning Outcome
+
+- Conditional statements in JavaScript
+- DOM manipulation
+- Event handling
+- Clean project structure (HTML, CSS, JS separated)
+
+---
+
+## 📌 Best Use Case
+
+- JavaScript practice project
+- College assignment
+- Interview preparation
+- Portfolio project
+
+---

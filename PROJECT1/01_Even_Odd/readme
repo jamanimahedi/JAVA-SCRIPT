@@ -1,0 +1,77 @@
+# Even or Odd Checker 🔢
+
+A simple and modern JavaScript project that checks whether a given number is **Even** or **Odd**.  
+This project is beginner-friendly and built with a clean, professional UI using **HTML, CSS, and JavaScript**.
+
+https://even-or-odd-program-js.netlify.app/
+
+---
+
+## 🚀 Features
+
+- ✅ User-friendly input field
+- 🎨 Modern & colorful UI design
+- 📱 Fully responsive layout
+- ⚡ Instant result on button click
+- 🧠 Beginner-friendly JavaScript logic
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Structure of the webpage  
+- **CSS3** – Styling & modern UI  
+- **JavaScript (ES6)** – Logic and functionality  
+
+---
+
+## 📂 Project Structure
+
+Even-Odd-Checker/
+│
+├── index.html # Main HTML file
+├── style.css # CSS for styling
+├── script.js # JavaScript logic
+└── README.md # Project documentation
+
+
+
+
+---
+
+## 🧩 How It Works
+
+1. User enters a number.
+2. Clicks on the **Check** button.
+3. JavaScript checks:
+   - If number % 2 === 0 → **Even**
+   - Else → **Odd**
+4. Result is displayed instantly with color feedback.
+
+---
+
+## ▶️ How to Run the Project
+
+1. Download or clone the repository  
+2. Open the folder in **VS Code**  
+3. Open `index.html` in your browser  
+4. Enter a number and test 🎉
+
+---
+
+## 📸 Output Preview
+
+- Centered card layout  
+- Gradient background  
+- Color-based result (Even / Odd)
+
+---
+
+## 🎯 Learning Outcome
+
+- Understanding JavaScript conditions
+- DOM manipulation
+- Event handling
+- Separating HTML, CSS & JS files
+
+---

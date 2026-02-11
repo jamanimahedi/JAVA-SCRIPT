@@ -1,0 +1,86 @@
+# ATM Withdrawal Simulator 🏧💳
+
+A JavaScript project that simulates an **ATM withdrawal system**.  
+It checks balance availability, validates withdrawal amount, and displays appropriate messages using a **modern UI**.
+
+https://atm-withdrawal-simulator-js-progarm.netlify.app/
+
+
+---
+
+## 🚀 Features
+
+- ✅ Simulates ATM cash withdrawal
+- 💰 Balance validation before withdrawal
+- 🎨 Modern card-based UI with gradient background
+- 📱 Fully responsive design
+- ⚡ Instant feedback messages
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Structure of the ATM interface  
+- **CSS3** – Styling and layout  
+- **JavaScript (ES6)** – Withdrawal logic  
+
+---
+
+## 📂 Project Structure
+
+ATM-Withdrawal-Simulator/
+│
+├── index.html # HTML structure
+├── style.css # CSS styling
+├── script.js # JavaScript logic
+└── README.md # Project documentation
+
+
+---
+
+## 🧩 How It Works
+
+1. User enters withdrawal amount.
+2. Clicks on the **Withdraw** button.
+3. JavaScript checks:
+   - If amount ≤ balance → Withdrawal successful
+   - If amount > balance → Insufficient balance
+4. Displays result instantly.
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone or download the repository  
+2. Open the folder in **VS Code**  
+3. Open `index.html` in a browser  
+4. Enter amount and simulate withdrawal 🏧
+
+---
+
+## 📸 Output Preview
+
+- Centered ATM-style card UI
+- Gradient background
+- Clear success or error messages
+- Clean & professional layout
+
+---
+
+## 🎯 Learning Outcome
+
+- Conditional logic implementation
+- Handling user input validation
+- DOM manipulation
+- Creating real-world JavaScript simulations
+
+---
+
+## 📌 Ideal For
+
+- JavaScript beginners
+- College mini projects
+- Interview logic questions
+- Portfolio showcase
+
+---

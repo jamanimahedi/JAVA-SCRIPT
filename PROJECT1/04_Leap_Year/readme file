@@ -1,0 +1,86 @@
+# Leap Year Checker 📅
+
+A simple JavaScript project that checks whether a given year is a **Leap Year** or **Not a Leap Year**.  
+Designed with a **modern UI** and clean logic, this project is ideal for beginners and interview preparation.
+
+https://leap-year-checker-js-program.netlify.app/
+
+---
+
+## 🚀 Features
+
+- ✅ Checks leap year accurately
+- 🎨 Modern card-based design with gradient background
+- 📱 Fully responsive layout
+- ⚡ Instant result display
+- 🧠 Uses standard leap year conditions
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Webpage structure  
+- **CSS3** – Styling & responsive design  
+- **JavaScript (ES6)** – Leap year logic  
+
+---
+
+## 📂 Project Structure
+
+Leap-Year-Checker/
+│
+├── index.html # HTML structure
+├── style.css # CSS styling
+├── script.js # JavaScript logic
+└── README.md # Documentation
+
+
+---
+
+## 🧩 How It Works
+
+1. User enters a year.
+2. Clicks on the **Check** button.
+3. JavaScript applies leap year rules:
+   - Divisible by 4 **and**
+   - Not divisible by 100 **or**
+   - Divisible by 400
+4. Displays result instantly.
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone or download the repository  
+2. Open it in **VS Code**  
+3. Open `index.html` in a browser  
+4. Enter a year and check the result 🎉
+
+---
+
+## 📸 Output Preview
+
+- Centered card layout
+- Gradient background
+- Green message for Leap Year
+- Red message for Not a Leap Year
+
+---
+
+## 🎯 Learning Outcome
+
+- Understanding logical conditions
+- Applying real-world rules in JavaScript
+- DOM manipulation
+- Writing clean and structured code
+
+---
+
+## 📌 Best For
+
+- JavaScript beginners
+- College mini projects
+- Interview logic questions
+- Portfolio showcase
+
+---

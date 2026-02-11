@@ -1,0 +1,90 @@
+# Temperature Converter 🌡️
+
+A JavaScript project that converts temperature values between **Celsius and Fahrenheit**.  
+Designed with a **modern UI** and clean logic, this project is perfect for beginners and portfolio use.
+
+
+https://temperature-converter-js-program.netlify.app/
+
+
+---
+
+## 🚀 Features
+
+- ✅ Converts Celsius to Fahrenheit
+- ✅ Converts Fahrenheit to Celsius
+- 🎨 Modern card-based UI with gradient background
+- 📱 Fully responsive design
+- ⚡ Instant conversion result
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Webpage structure  
+- **CSS3** – Styling and layout  
+- **JavaScript (ES6)** – Temperature conversion logic  
+
+---
+
+## 📂 Project Structure
+
+Temperature-Converter/
+│
+├── index.html # HTML structure
+├── style.css # CSS styling
+├── script.js # JavaScript logic
+└── README.md # Project documentation
+
+
+---
+
+## 🧩 How It Works
+
+1. User enters temperature value.
+2. Selects conversion type:
+   - Celsius → Fahrenheit  
+   - Fahrenheit → Celsius
+3. Clicks on the **Convert** button.
+4. JavaScript applies formula:
+
+- **C → F**: `(C × 9/5) + 32`  
+- **F → C**: `(F − 32) × 5/9`
+
+5. Displays converted temperature instantly.
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone or download the repository  
+2. Open it in **VS Code**  
+3. Open `index.html` in a browser  
+4. Enter value and convert temperature 🌡️
+
+---
+
+## 📸 Output Preview
+
+- Centered card layout
+- Gradient background
+- Clear conversion result
+- Clean & professional UI
+
+---
+
+## 🎯 Learning Outcome
+
+- Mathematical formula implementation
+- Handling user selections
+- DOM manipulation
+- Building real-world utility apps
+
+---
+
+## 📌 Ideal For
+
+- JavaScript beginners
+- College assignments
+- Interviewutigalugu interview prep
+- Portfolio projects

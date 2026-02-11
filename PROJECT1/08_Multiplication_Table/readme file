@@ -1,0 +1,85 @@
+# Multiplication Table Generator ✖️📋
+
+A JavaScript project that generates the **multiplication table of a given number**.  
+Built with a **clean UI** and simple logic, this project is ideal for beginners, practice, and portfolio showcase.
+
+https://multiplication-table-generator-js.netlify.app/
+
+---
+
+## 🚀 Features
+
+- ✅ Generates multiplication table instantly
+- 🎨 Modern card-based UI with gradient background
+- 📱 Fully responsive layout
+- ⚡ Real-time table generation
+- 🧠 Beginner-friendly JavaScript logic
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Structure of the page  
+- **CSS3** – Styling and layout  
+- **JavaScript (ES6)** – Table generation logic  
+
+---
+
+## 📂 Project Structure
+
+Multiplication-Table-Generator/
+│
+├── index.html # HTML structure
+├── style.css # CSS styling
+├── script.js # JavaScript logic
+└── README.md # Project documentation
+
+
+---
+
+## 🧩 How It Works
+
+1. User enters a number.
+2. Clicks on the **Generate Table** button.
+3. JavaScript:
+   - Uses a loop to generate multiplication table
+   - Displays results from 1 to 10
+4. Table is displayed clearly on the screen.
+
+---
+
+## ▶️ How to Run the Project
+
+1. Download or clone the repository  
+2. Open the folder in **VS Code**  
+3. Open `index.html` in your browser  
+4. Enter a number and generate the table 📊
+
+---
+
+## 📸 Output Preview
+
+- Centered card layout
+- Gradient background
+- Clean table format
+- Easy-to-read results
+
+---
+
+## 🎯 Learning Outcome
+
+- Loop usage in JavaScript
+- Dynamic content generation
+- DOM manipulation
+- Writing clean & readable code
+
+---
+
+## 📌 Best For
+
+- JavaScript beginners
+- College assignments
+- Interview practice
+- Portfolio projects
+
+---

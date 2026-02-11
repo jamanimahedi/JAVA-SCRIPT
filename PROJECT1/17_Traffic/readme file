@@ -1,0 +1,87 @@
+# Traffic Signal Simulator 🚦
+
+A JavaScript project that simulates a **traffic signal system** showing Red, Yellow, and Green signals.  
+Built with a **modern UI** and simple logic, this project is perfect for beginners, practice, and portfolio showcase.
+
+
+https://traffic-signal-simulator-js-progarm.netlify.app/
+
+
+---
+
+## 🚀 Features
+
+- 🔴 Red, 🟡 Yellow, 🟢 Green signal simulation
+- ⏱️ Automatic or button-based signal change
+- 🎨 Modern card-based UI with gradient background
+- 📱 Fully responsive layout
+- ⚡ Real-time signal display
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Structure of the traffic signal  
+- **CSS3** – Styling and UI design  
+- **JavaScript (ES6)** – Signal control logic  
+
+---
+
+## 📂 Project Structure
+
+Traffic-Signal-Simulator/
+│
+├── index.html # HTML structure
+├── style.css # CSS styling
+├── script.js # JavaScript logic
+└── README.md # Project documentation
+
+
+---
+
+## 🧩 How It Works
+
+1. User starts the simulation or clicks signal buttons.
+2. JavaScript changes signal colors:
+   - Red → Stop
+   - Yellow → Ready
+   - Green → Go
+3. Signal updates visually on the screen.
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone or download the repository  
+2. Open it in **VS Code**  
+3. Open `index.html` in a browser  
+4. Start the traffic signal simulation 🚦
+
+---
+
+## 📸 Output Preview
+
+- Centered traffic signal UI
+- Gradient background
+- Animated color changes
+- Clean & professional design
+
+---
+
+## 🎯 Learning Outcome
+
+- Working with timers (setInterval / setTimeout)
+- DOM manipulation
+- CSS styling for visual effects
+- Creating real-world simulations
+
+---
+
+## 📌 Ideal For
+
+- JavaScript beginners
+- College mini projects
+- Interview demonstrations
+- Portfolio showcase
+
+---

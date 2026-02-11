@@ -1,0 +1,85 @@
+# Largest of Three Numbers 🔢📊
+
+A beginner-friendly JavaScript project that finds the **largest number among three inputs**.  
+Built with a **modern UI**, clear logic, and separated HTML, CSS, and JavaScript files — perfect for learning and portfolios.
+
+https://largest-of-three-numbers-js-program.netlify.app/
+
+---
+
+## 🚀 Features
+
+- ✅ Compares three numbers instantly
+- 🎨 Modern card-based UI with gradient background
+- 📱 Fully responsive design
+- ⚡ Real-time result display
+- 🧠 Simple & clean JavaScript logic
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Structure of the application  
+- **CSS3** – Styling & responsive layout  
+- **JavaScript (ES6)** – Comparison logic  
+
+---
+
+## 📂 Project Structure
+
+Largest-of-Three-Numbers/
+│
+├── index.html # HTML layout
+├── style.css # Styling & UI design
+├── script.js # JavaScript logic
+└── README.md # Project documentation
+
+
+---
+
+## 🧩 How It Works
+
+1. User enters three numbers.
+2. Clicks on the **Check Largest** button.
+3. JavaScript compares all three values using conditions.
+4. The largest number is displayed with highlighted output.
+
+---
+
+## ▶️ How to Run the Project
+
+1. Download or clone the repository  
+2. Open the folder in **VS Code**  
+3. Open `index.html` in any browser  
+4. Enter three numbers and check the result 🚀
+
+---
+
+## 📸 Output Preview
+
+- Centered card layout
+- Gradient background
+- Highlighted largest number
+- Clean & readable UI
+
+---
+
+## 🎯 Learning Outcome
+
+- Using conditional statements
+- Comparing multiple values
+- DOM manipulation
+- Writing clean and readable JavaScript
+- Maintaining proper file structure
+
+---
+
+## 📌 Ideal For
+
+- JavaScript beginners
+- College practicals
+- Interview preparation
+- Portfolio projects
+
+---
+

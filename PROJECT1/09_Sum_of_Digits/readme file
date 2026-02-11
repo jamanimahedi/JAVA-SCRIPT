@@ -1,0 +1,89 @@
+# Sum of Digits of a Number ➕🔢
+
+A simple JavaScript project that calculates the **sum of all digits of a given number**.  
+Built with a **modern UI** and clean logic, this project is ideal for beginners and interview preparation.
+
+https://sum-of-digits-js-program.netlify.app/
+
+
+---
+
+## 🚀 Features
+
+- ✅ Calculates sum of digits instantly
+- 🎨 Modern card-based UI with gradient background
+- 📱 Fully responsive design
+- ⚡ Real-time result display
+- 🧠 Easy-to-understand JavaScript logic
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Webpage structure  
+- **CSS3** – Styling and modern UI  
+- **JavaScript (ES6)** – Digit sum logic  
+
+---
+
+## 📂 Project Structure
+
+Sum-of-Digits/
+│
+├── index.html # HTML file
+├── style.css # CSS styling
+├── script.js # JavaScript logic
+└── README.md # Documentation
+
+
+---
+
+## 🧩 How It Works
+
+1. User enters a number.
+2. Clicks on the **Calculate** button.
+3. JavaScript:
+   - Extracts digits using loop or string method
+   - Adds each digit to get the total sum
+4. Displays the result instantly.
+
+**Example:**  
+Input: `1234` → Output: `1 + 2 + 3 + 4 = 10`
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone or download the repository  
+2. Open in **VS Code**  
+3. Open `index.html` in a browser  
+4. Enter a number and calculate the sum 🎯
+
+---
+
+## 📸 Output Preview
+
+- Centered card layout
+- Gradient background
+- Clean result display
+- Highlighted total sum
+
+---
+
+## 🎯 Learning Outcome
+
+- Working with numbers & strings
+- Loop concepts in JavaScript
+- DOM manipulation
+- Writing clean and readable logic
+
+---
+
+## 📌 Ideal For
+
+- JavaScript beginners
+- College practicals
+- Interview logic questions
+- Portfolio projects
+
+---

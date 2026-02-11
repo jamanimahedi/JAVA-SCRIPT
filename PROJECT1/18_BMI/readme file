@@ -1,0 +1,86 @@
+# BMI Calculator ⚖️
+
+A JavaScript project that calculates **Body Mass Index (BMI)** based on height and weight.  
+It also shows the **health category** (Underweight, Normal, Overweight, Obese) using a **modern and clean UI**.
+
+
+https://bmi-calculator-js-progarm.netlify.app/
+
+
+---
+
+## 🚀 Features
+
+- ⚖️ Calculates BMI accurately
+- 📊 Displays BMI category (Underweight / Normal / Overweight / Obese)
+- 🎨 Modern card-based UI with gradient background
+- 📱 Fully responsive design
+- ⚡ Instant result display
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Structure of the webpage  
+- **CSS3** – Styling and modern UI  
+- **JavaScript (ES6)** – BMI calculation logic  
+
+---
+
+## 📂 Project Structure
+
+BMI-Calculator/
+│
+├── index.html # HTML structure
+├── style.css # CSS styling
+├── script.js # JavaScript logic
+└── README.md # Project documentation
+
+
+---
+5. Displays BMI value and health status.
+
+**BMI Categories:**
+- < 18.5 → Underweight  
+- 18.5 – 24.9 → Normal  
+- 25 – 29.9 → Overweight  
+- ≥ 30 → Obese  
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone or download the repository  
+2. Open the folder in **VS Code**  
+3. Open `index.html` in a browser  
+4. Enter details and calculate BMI ⚖️
+
+---
+
+## 📸 Output Preview
+
+- Centered card layout
+- Gradient background
+- Clear BMI value
+- Health category display
+- Professional & clean UI
+
+---
+
+## 🎯 Learning Outcome
+
+- Mathematical calculations in JavaScript
+- Conditional logic
+- DOM manipulation
+- Building health-based utility applications
+
+---
+
+## 📌 Best For
+
+- JavaScript beginners
+- College mini projects
+- Interview preparation
+- Portfolio showcase
+
+---
