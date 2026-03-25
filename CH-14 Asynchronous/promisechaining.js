@@ -1,4 +1,6 @@
-// promise chain - online order
+//promise chaininng 
+
+//example 1
 
 let order = new Promise((resolve, reject) => {
     let orderPlaced = true;
