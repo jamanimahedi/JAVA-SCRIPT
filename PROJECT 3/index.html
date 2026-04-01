@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Check</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form id="form">
+
+    <h2>🌤 Weather Check</h2>
+
+    <div class="search">
+        <input type="text" id="input" required placeholder="Enter city name">
+        <button type="submit">Check</button>
+    </div>
+
+    <div id="container">
+        <img src="" id="img">
+        <h1 id="temperature"></h1>
+        <h3 id="city"></h3>
+    </div>
+
+    <div class="info">
+        <div>
+            <img id="humidity-img">
+            <p id="humidity-name"></p>
+            <p id="humidity"></p>
+        </div>
+
+        <div>
+            <img id="speed-img">
+            <p id="speed-name"></p>
+            <p id="speed"></p>
+        </div>
+    </div>
+
+    <div id="not-found"></div>
+
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>

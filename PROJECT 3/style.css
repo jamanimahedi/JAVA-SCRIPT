@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("https://images.unsplash.com/photo-1499346030926-9a72daac6c63");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    font-family: 'Segoe UI', sans-serif;
+}
+
+form {
+    width: 360px;
+    padding: 30px;
+    border-radius: 20px;
+
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(15px);
+
+    box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+
+h2 {
+    color: #3d3dbf;
+    margin-bottom: 20px;
+}
+
+
+.search {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid black;
+    outline: none;
+}
+
+
+button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background: #0b3c5d;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #07293f;
+    transform: scale(1.05);
+}
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* 🔥 ICON + TEXT CENTER */
+    justify-content: center;
+}
+
+
+#img {
+    width: 100px;
+    margin: 15px 0;
+    display: block;
+}
+
+
+#temperature {
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+}
+
+
+#city {
+    color: #2f3e1f;
+}
+
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.info div {
+    text-align: center;
+}
+
+
+.info img {
+    width: 30px;
+    margin-bottom: 5px;
+}
+
+
+.info p {
+    font-size: 14px;
+    color: black;
+}
+
+
+#not-found {
+    color: red;
+    margin-top: 10px;
+    font-weight: bold;
+}
