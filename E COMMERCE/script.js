@@ -1,154 +1,195 @@
 const products = [
   {
     id: 1,
-    name: "Smart WiFi Plug",
-    price: 899,
-    image: "https://images.pexels.com/photos/4792729/pexels-photo-4792729.jpeg"
+    name: "Wireless Headphones",
+    price: 2999,
+    image: "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg",
   },
   {
     id: 2,
-    name: "Portable Air Humidifier",
-    price: 999,
-    image: "https://images.pexels.com/photos/3735212/pexels-photo-3735212.jpeg"
+    name: "Smart Watch",
+    price: 4999,
+    image: "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg",
   },
   {
     id: 3,
-    name: "RGB LED Strip Light",
-    price: 1499,
-    image: "https://images.pexels.com/photos/577514/pexels-photo-577514.jpeg"
+    name: "Laptop",
+    price: 55999,
+    image: "https://images.pexels.com/photos/18105/pexels-photo.jpg",
   },
   {
     id: 4,
-    name: "Wireless Doorbell Camera",
-    price: 3999,
-    image: "https://images.pexels.com/photos/6195123/pexels-photo-6195123.jpeg"
+    name: "Gaming Mouse",
+    price: 1499,
+    image: "https://images.pexels.com/photos/2115257/pexels-photo-2115257.jpeg",
   },
   {
     id: 5,
-    name: "Electric Kettle Steel",
-    price: 1199,
-    image: "https://images.pexels.com/photos/6813697/pexels-photo-6813697.jpeg"
+    name: "Mechanical Keyboard",
+    price: 3499,
+    image: "https://images.pexels.com/photos/1772123/pexels-photo-1772123.jpeg",
   },
   {
     id: 6,
-    name: "Laptop Cooling Pad",
-    price: 999,
-    image: "https://images.pexels.com/photos/18105/pexels-photo.jpg"
+    name: "Bluetooth Speaker",
+    price: 1999,
+    image: "https://images.pexels.com/photos/63703/pexels-photo-63703.jpeg",
   },
   {
     id: 7,
-    name: "Desk Organizer Box",
-    price: 499,
-    image: "https://images.pexels.com/photos/3747468/pexels-photo-3747468.jpeg"
+    name: "DSLR Camera",
+    price: 45999,
+    image: "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg",
   },
   {
     id: 8,
-    name: "Digital Kitchen Weight Scale",
-    price: 799,
-    image: "https://images.pexels.com/photos/5341966/pexels-photo-5341966.jpeg"
+    name: "Running Shoes",
+    price: 2499,
+    image: "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg",
   },
   {
     id: 9,
-    name: "Rechargeable Emergency Light",
-    price: 899,
-    image: "https://images.pexels.com/photos/577514/pexels-photo-577514.jpeg"
+    name: "Backpack",
+    price: 1299,
+    image: "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg",
   },
   {
     id: 10,
-    name: "Clothes Steamer Iron",
-    price: 1499,
-    image: "https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg"
+    name: "Sunglasses",
+    price: 999,
+    image: "https://images.pexels.com/photos/46710/pexels-photo-46710.jpeg",
   },
   {
     id: 11,
-    name: "Wireless Keyboard Mouse Combo",
-    price: 1599,
-    image: "https://images.pexels.com/photos/2115256/pexels-photo-2115256.jpeg"
+    name: "Office Chair",
+    price: 6999,
+    image: "https://images.pexels.com/photos/1957478/pexels-photo-1957478.jpeg",
   },
   {
     id: 12,
-    name: "Portable Bluetooth Speaker",
-    price: 1299,
-    image: "https://images.pexels.com/photos/63703/pexels-photo-63703.jpeg"
-  }
+    name: "Coffee Mug",
+    price: 499,
+    image: "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg",
+  },
+  {
+    id: 13,
+    name: "Mobile Phone",
+    price: 25999,
+    image: "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg",
+  },
+  {
+    id: 14,
+    name: "Perfume",
+    price: 1799,
+    image: "https://images.pexels.com/photos/965989/pexels-photo-965989.jpeg",
+  },
+  {
+    id: 15,
+    name: "T-Shirt",
+    price: 799,
+    image: "https://images.pexels.com/photos/428338/pexels-photo-428338.jpeg",
+  },
 ];
-const productContainer = document.getElementById("product-list");
 
-products.forEach(p => {
+products.forEach((p) => {
+  const productList = document.getElementById("product-list");
 
-  productContainer.innerHTML += `
-
-  <div class="card text-center " style="height:30rem">
-  <img src="${p.image}" class="card-img-top" width="100%" height="300px"; alt="${p.name}">
-  <div class="card-body">
+  productList.innerHTML += `
+    
+    <div class="col-md-4 mt-3">
+    <div class="card product-card shadow rounded-4">
+  <img src="${p.image}" class="card-img-top img-fluid rounded-4" alt="${p.name}">
+  <div class="card-body text-center">
     <h5 class="card-title">${p.name}</h5>
-    <p class="card-text">₹${p.price}</p>
-    <button class="btn btn-primary" onclick="addToCart(${p.id})">Buy</button>
+     <h4 class="card-text">₹${p.price} </h4>
+  <button class="btn btn-primary" onclick="addToCart(${p.id})" >Add to cart</button>
   </div>
 </div>
+    
+    </div>
 
-  `
+    `;
+});
 
-})
+// localStorage concept added
 
+// const data = { name: "electronic", qty: 1 };
+
+// localStorage.setItem("cartData", JSON.stringify(data));
+
+// const productData = localStorage.getItem("cartData");
+
+// console.log("productData", JSON.parse(productData));
+
+let cartItems = JSON.parse(localStorage.getItem("cartData")) || [];
+
+console.log("cartItems", cartItems);
 
 function addToCart(id) {
+  try {
+    let product = cartItems.find((p) => p.id === id);
 
-  let cart = JSON.parse(localStorage.getItem("cart")) || [];
+    console.log("product already added", product);
 
-  let product = products.find(p => p.id === id);
+    if (product) {
+      product.qty++;
+    } else {
+      product = products.find((p) => p.id === id);
 
-  let existing = cart.find(item => item.id === id);
+      cartItems.push({ ...product, qty: 1 });
 
-  if (existing) {
-    existing.quantity += 1;
-  } else {
-    cart.push({ ...product, quantity: 1 });
+      console.log("product new added", product);
+    }
+
+    localStorage.setItem("cartData", JSON.stringify(cartItems));
+
+    alert("item added in cart");
+  } catch (error) {
+    console.log(error);
   }
-
-  localStorage.setItem("cart", JSON.stringify(cart));
-
-
 }
 
+function showModal() {
+  try {
+    const cartList = document.getElementById("cartList");
 
+    let modal = new bootstrap.Modal(cartList);
 
-function ShowCart() {
+    modal.show();
+    showCartList();
+  } catch (error) {
+    console.log(error);
+  }
+}
 
-  let cart = JSON.parse(localStorage.getItem("cart")) || [];
+function showCartList() {
+  try {
+    const cartTable = document.getElementById("cartTable");
 
-  let tbody = document.getElementById("t-body");
+    cartTable.innerHTML = "";
 
-  tbody.innerHTML = "";
-
-
-
-  cart.forEach(item => {
-
-    tbody.innerHTML += `
+    cartItems.forEach((p) => {
+      cartTable.innerHTML += `
+      
       <tr>
-        <td>${item.name}</td>
-        <td>
-        <button class="btn btn-success m-2">+</button>
+      <td>${p.name}</td>
+      <td>
+      <div class="d-flex gap-2">
 
-        ${item.quantity}
-        
-        <button class="btn btn-danger m-2">-</button>
-
-        </td>
-
-
-        <td>₹${item.price * item.quantity}</td>
+      <button class="btn btn-outline-success" >+</button>
+      
+      <h5>${p.qty}</h5>
+ <button class="btn btn-outline-danger" >-</button>
+      
+      </div>
+      </td>
+      <td>₹ ${p.price * p.qty}</td>
+      <td><button class="btn btn-outline-danger" >remove</button></td>
+      
       </tr>
-    `;
-  });
+      
 
-
-
-
-  const myModal = new bootstrap.Modal(
-    document.getElementById("exampleModal")
-  );
-
-  myModal.show();
+      `;
+    });
+  } catch (error) {}
 }

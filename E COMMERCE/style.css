@@ -1,15 +1,13 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:"border-box"
+
 }
 
-.p-list{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
+.product-card {
+  min-height: 450px;
 }
-.card{
-    width: 300px;
+.product-card img {
+  height: 300px;
 }
