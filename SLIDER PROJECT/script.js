@@ -1,35 +1,84 @@
-const images = [
-  "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
-  "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429",
-  "https://images.unsplash.com/photo-1493244040629-496f6d136cc3",
-  "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
-  "https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
+const slides = [
+  {
+    img: "https://images.pexels.com/photos/799443/pexels-photo-799443.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    title: "Sunset",
+    desc: "Beautiful sunset landscape"
+  },
+  {
+    img: "https://images.pexels.com/photos/210182/pexels-photo-210182.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    title: "Road View",
+    desc: "Open highway adventure road"
+  },
+  {
+    img: "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    title: "Coffee",
+    desc: "Coffee cup aesthetic setup"
+  },
+  {
+    img: "https://images.pexels.com/photos/374074/pexels-photo-374074.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    title: "Laptop",
+    desc: "Modern laptop desk setup"
+  },
+  {
+    img: "https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    title: "Flowers",
+    desc: "Beautiful flower garden closeup"
+  },
+  {
+    img: "https://images.pexels.com/photos/338515/pexels-photo-338515.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    title: "Night City",
+    desc: "Night city lights view"
+  },
+  {
+    img: "https://images.pexels.com/photos/163210/motorcycles-race-helmets-pilots-163210.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    title: "Bike",
+    desc: "Stylish bike photography"
+  },
+  {
+    img: "https://images.pexels.com/photos/531756/pexels-photo-531756.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    title: "Sky Clouds",
+    desc: "Blue sky clouds nature"
+  },
+  {
+    img: "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    title: "Building",
+    desc: "Modern architecture angle"
+  },
+  {
+    img: "https://images.pexels.com/photos/4827/nature-forest-trees-fog.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    title: "Forest Path",
+    desc: "Nature tree path journey"
+  }
 ];
 
 let index = 0;
-const img = document.getElementById("img");
 
-function showImage() {
-  img.style.opacity = 0;
+const image = document.getElementById("slider-img");
+const title = document.getElementById("title");
+const desc = document.getElementById("desc");
 
-  setTimeout(() => {
-    img.src = images[index];
-    img.style.opacity = 1;
-  }, 200);
+function showSlide() {
+  image.src = slides[index].img;
+  title.innerText = slides[index].title;
+  desc.innerText = slides[index].desc;
 }
 
-function nextimg() {
-  index = (index + 1) % images.length;
-  showImage();
+function nextSlide() {
+  index++;
+  if (index >= slides.length) {
+    index = 0;
+  }
+  showSlide();
 }
 
-function previmg() {
-  index = (index - 1 + images.length) % images.length;
-  showImage();
+function prevSlide() {
+  index--;
+  if (index < 0) {
+    index = slides.length - 1;
+  }
+  showSlide();
 }
 
-/* Auto slider */
-setInterval(nextimg, 3000);
+showSlide();
 
-/* Initial load */
-showImage();
+setInterval(nextSlide, 3000);

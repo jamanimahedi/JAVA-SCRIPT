@@ -2,75 +2,121 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Background */
 body {
-    background: #000;
-    font-family: Arial, sans-serif;
-    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    padding: 20px;
 }
 
-/* Title */
-h1 {
-    position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+.slider-container {
+    width: 100%;
+    text-align: center;
+}
+
+.slider-container h1 {
     color: white;
-    z-index: 2;
-    letter-spacing: 2px;
+    font-size: 55px;
+    margin-bottom: 25px;
 }
 
-/* Slider full screen */
-.slider {
-    position: relative;
-    width: 100%;
-    height: 100vh;
+.glass-card {
+    width: 650px;
+    max-width: 95%;
+    margin: auto;
+    padding: 18px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
 }
 
-/* Image */
-.slider img {
+.glass-card img {
     width: 100%;
-    height: 100vh;
+    height: 320px;
     object-fit: cover;
-    transition: opacity 0.5s ease-in-out;
+    border-radius: 18px;
 }
 
-/* Dark overlay */
-.slider::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(0,0,0,0.3);
+.content {
+    color: white;
+    margin-top: 18px;
 }
 
-/* Buttons */
+.content h2 {
+    font-size: 42px;
+    margin-bottom: 8px;
+}
+
+.content p {
+    font-size: 26px;
+    opacity: 0.9;
+}
+
+.buttons {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
 button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 12px;
-    font-size: 25px;
+    width: 65px;
+    height: 65px;
     border: none;
     border-radius: 50%;
-    background: rgba(0,0,0,0.6);
-    color: white;
+    font-size: 28px;
     cursor: pointer;
-    z-index: 2;
+    color: white;
+    background: rgba(255, 255, 255, 0.15);
+    transition: 0.3s;
 }
 
 button:hover {
-    background: rgba(255,255,255,0.3);
+    transform: scale(1.12);
+    background: rgba(255, 255, 255, 0.3);
 }
 
-.prev {
-    left: 20px;
-}
 
-.next {
-    right: 20px;
+
+@media(max-width:768px) {
+
+    .slider-container h1 {
+        font-size: 38px;
+    }
+
+    .glass-card {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .glass-card img {
+        height: 240px;
+    }
+
+    .content h2 {
+        font-size: 28px;
+    }
+
+    .content p {
+        font-size: 18px;
+    }
+
+    button {
+        width: 55px;
+        height: 55px;
+        font-size: 24px;
+    }
+
+    .buttons {
+        gap: 15px;
+    }
+
 }
