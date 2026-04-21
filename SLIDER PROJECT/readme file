@@ -1,0 +1,46 @@
+# 🎯 Glassmorphism Image Slider Project
+
+A modern and responsive **Glassmorphism Image Slider** built using **HTML, CSS, and JavaScript**.  
+This project displays beautiful images with titles and descriptions in an auto-changing slider with previous and next navigation buttons.
+
+---
+
+
+https://silder-project-js.netlify.app/
+
+
+
+
+
+
+
+
+
+## 📸 Preview
+
+A stylish image slider with:
+
+- ✨ Glassmorphism Card Design  
+- 🌄 Beautiful Nature & Lifestyle Images  
+- ⏪ Previous / Next Buttons  
+- 🔄 Auto Slide Every 3 Seconds  
+- 📱 Fully Responsive Layout  
+
+---
+
+## 🚀 Technologies Used
+
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla JS)
+
+---
+
+## 📂 Project Structure
+
+```bash
+slider-project/
+│── index.html
+│── style.css
+│── script.js
+│── README.md
