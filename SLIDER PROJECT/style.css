@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -10,113 +9,70 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-    padding: 20px;
+    background: linear-gradient(to right, #08111f, #0b2230, #163847);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.slider-container {
-    width: 100%;
-    text-align: center;
+.slider-wrapper {
+    position: relative;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.slider-container h1 {
+.main-heading {
+    position: absolute;
+    top: -70px;
     color: white;
-    font-size: 55px;
-    margin-bottom: 25px;
+    font-size: 45px;
+    font-weight: bold;
 }
 
 .glass-card {
     width: 650px;
-    max-width: 95%;
-    margin: auto;
-    padding: 18px;
+    padding: 25px;
     border-radius: 25px;
     background: rgba(255, 255, 255, 0.12);
-    backdrop-filter: blur(12px);
+    backdrop-filter: blur(15px);
     border: 1px solid rgba(255, 255, 255, 0.15);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    text-align: center;
 }
 
 .glass-card img {
     width: 100%;
-    height: 320px;
+    height: 350px;
     object-fit: cover;
-    border-radius: 18px;
+    border-radius: 20px;
 }
 
-.content {
+.glass-card h2 {
     color: white;
-    margin-top: 18px;
+    font-size: 60px;
+    margin-top: 20px;
 }
 
-.content h2 {
-    font-size: 42px;
-    margin-bottom: 8px;
+.glass-card p {
+    color: #ddd;
+    font-size: 28px;
+    margin-top: 10px;
 }
 
-.content p {
-    font-size: 26px;
-    opacity: 0.9;
-}
-
-.buttons {
-    margin-top: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-button {
-    width: 65px;
-    height: 65px;
+.side-btn {
+    width: 90px;
+    height: 90px;
     border: none;
     border-radius: 50%;
-    font-size: 28px;
+    background: rgba(255, 255, 255, 0.08);
+    color: #66ffe0;
+    font-size: 55px;
     cursor: pointer;
-    color: white;
-    background: rgba(255, 255, 255, 0.15);
     transition: 0.3s;
+    margin: 0 35px;
 }
 
-button:hover {
-    transform: scale(1.12);
-    background: rgba(255, 255, 255, 0.3);
-}
-
-
-
-@media(max-width:768px) {
-
-    .slider-container h1 {
-        font-size: 38px;
-    }
-
-    .glass-card {
-        width: 100%;
-        padding: 15px;
-    }
-
-    .glass-card img {
-        height: 240px;
-    }
-
-    .content h2 {
-        font-size: 28px;
-    }
-
-    .content p {
-        font-size: 18px;
-    }
-
-    button {
-        width: 55px;
-        height: 55px;
-        font-size: 24px;
-    }
-
-    .buttons {
-        gap: 15px;
-    }
-
+.side-btn:hover {
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.15);
 }

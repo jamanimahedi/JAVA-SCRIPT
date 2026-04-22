@@ -1,33 +1,28 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Glassmorphism Slider</title>
+  <title>Slider Project</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <div class="slider-container">
+  <div class="slider-wrapper">
 
-    <h1>Slider Project</h1>
+    <h1 class="main-heading">Slider Project</h1>
+
+    <button class="side-btn left" onclick="prevSlide()">&#10094;</button>
 
     <div class="glass-card">
-      <img id="slider-img" src="" alt="slider image">
-
-      <div class="content">
-        <h2 id="title"></h2>
-        <p id="desc"></p>
-      </div>
+      <img id="sliderImage" src="" alt="slider image">
+      <h2 id="title"></h2>
+      <p id="desc"></p>
     </div>
 
-    <div class="buttons">
-      <button onclick="prevSlide()">❮</button>
-      <button onclick="nextSlide()">❯</button>
-    </div>
+    <button class="side-btn right" onclick="nextSlide()">&#10095;</button>
 
   </div>
 
